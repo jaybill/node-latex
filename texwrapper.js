@@ -108,7 +108,7 @@ module.exports = function(doc, options) {
     var moreArgs = options.args || [];
 
     var allArgs = moreArgs.concat([
-      "-interaction=nonstopmode",
+      "--interaction=batchmode",
       "texput.tex"
     ]);
 
